@@ -6,10 +6,10 @@ It does NOT write large blocks of code, run tests, or generate documentation dir
 
 **Delegate when:**
 - Writing 20+ lines of code
-- Designing a full feature or module
+- Full feature or module design
 - Running tests or build verification
+- Code review
 - Generating or updating documentation
-- Deep debugging sessions
 
 **Never delegate:**
 - Goal decomposition
@@ -81,4 +81,4 @@ It does NOT write large blocks of code, run tests, or generate documentation dir
 
 ## Mutation Rules
 
-See `CLAUDE.md` → Mutation Rules
+See `docs/OPERATIONS.md` → Mutation Rules
