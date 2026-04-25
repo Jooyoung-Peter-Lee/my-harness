@@ -81,10 +81,4 @@ It does NOT write large blocks of code, run tests, or generate documentation dir
 
 ## Mutation Rules
 
-| What changed | Also update |
-|---|---|
-| AGENTS.md (roles) | ARCHITECTURE.md |
-| ARCHITECTURE.md | Affected design-docs |
-| Plan completed | Move `exec-plans/active/` → `completed/` |
-| Quality drift found | `docs/QUALITY_SCORE.md` |
-| Arch decision made | Row in ARCHITECTURE.md + linked design-doc |
+See `CLAUDE.md` → Mutation Rules
