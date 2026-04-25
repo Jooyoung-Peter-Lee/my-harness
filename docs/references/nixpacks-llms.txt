@@ -1,0 +1,9 @@
+# Nixpacks Reference
+# Replace this file with the LLM-friendly Nixpacks documentation.
+#
+# How to populate:
+#   Fetch from: https://nixpacks.com/llms.txt  (or the official docs export)
+#
+# This file is consumed by the infra-agent to understand how Nixpacks
+# detects runtimes, resolves build plans, and handles configuration
+# without hallucinating CLI flags or config keys.

@@ -1,0 +1,9 @@
+# uv Reference
+# Replace this file with the LLM-friendly uv documentation.
+#
+# How to populate:
+#   Fetch from: https://docs.astral.sh/uv/llms.txt  (or the official docs export)
+#
+# This file is consumed by agents working on Python tooling to understand
+# uv commands, workspace configuration, dependency resolution, and
+# pyproject.toml conventions without hallucinating the CLI interface.

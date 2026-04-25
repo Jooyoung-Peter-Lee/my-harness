@@ -1,0 +1,11 @@
+# Design System Reference
+# Replace this file with the actual LLM-friendly reference for your design system.
+#
+# How to populate:
+#   - For shadcn/ui: fetch https://ui.shadcn.com/llms.txt
+#   - For your own design system: export component API docs in plain text
+#
+# This file is consumed by AI agents to understand available components,
+# their props, and usage patterns without hallucinating the API.
+#
+# Format: plain text, one component per section, prop tables in markdown.
