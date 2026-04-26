@@ -20,6 +20,8 @@ It does NOT write large blocks of code, run tests, or generate documentation dir
 
 ## Agent Roster
 
+> `src/shared/` 소유자는 프로젝트 시작 시 해당 에이전트에 지정한다. 지정 전까지 Conductor가 직접 관리한다.
+
 ### frontend-agent
 **Role:** UI implementation, component design, styling, client-side logic.
 **Stack:** See `ARCHITECTURE.md` → Tech Stack
@@ -39,7 +41,7 @@ It does NOT write large blocks of code, run tests, or generate documentation dir
 ### data-agent
 **Role:** Database schema, migrations, queries, data modeling.
 **Stack:** See `ARCHITECTURE.md` → Tech Stack
-**Owns:** `src/db/`, `migrations/`, `prisma/` or `drizzle/`
+**Owns:** `src/db/`, `migrations/`, `prisma/` or `drizzle/` *(택1, 프로젝트 스택에 따라)*
 **Delegate when:** schema changes, query optimization, or seed data.
 
 ---
@@ -47,7 +49,7 @@ It does NOT write large blocks of code, run tests, or generate documentation dir
 ### infra-agent
 **Role:** CI/CD pipelines, deployment config, environment management, IaC.
 **Stack:** See `ARCHITECTURE.md` → Tech Stack
-**Owns:** `.github/`, `infra/`, `vercel.json` or `vercel.ts`, `Dockerfile`
+**Owns:** `.github/`, `infra/`, `vercel.json` or `vercel.ts` *(택1, 프로젝트 스택에 따라)*, `Dockerfile`
 **Delegate when:** deploy config, environment variables, or pipeline changes.
 
 ---
