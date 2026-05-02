@@ -4,4 +4,5 @@
 
 | Feature | File | Status | Date |
 |---|---|---|---|
-| (example) | [feature-name.md](feature-name.md) | Draft / Approved | YYYY-MM-DD |
+
+> 새 스펙 작성 시 `_template.md`를 복사해서 사용하세요.
