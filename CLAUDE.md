@@ -27,7 +27,9 @@ On every session start, read these files in order and report findings before doi
 5. `docs/exec-plans/active/`
 6. `docs/OPERATIONS.md`
 
-> **신규 프로젝트 감지 시:** `ARCHITECTURE.md`의 Project Overview가 비어 있거나 플레이스홀더이면, 작업 시작 전에 사용자에게 프로젝트 개요와 Tech Stack을 먼저 채우도록 안내한다.
+> **신규 프로젝트 감지 시:** 아래 조건 중 하나라도 해당하면 작업 시작 전에 사용자에게 `README.md`의 Day 1 체크리스트를 먼저 완료하도록 안내한다.
+> - `ARCHITECTURE.md`의 Project Overview가 비어 있거나 플레이스홀더(`<your-project-overview>`)인 경우
+> - `docs/PLANS.md`의 Current Focus가 비어 있거나 플레이스홀더인 경우
 
 Then report:
 - Current active plan

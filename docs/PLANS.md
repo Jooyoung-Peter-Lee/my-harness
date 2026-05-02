@@ -11,33 +11,34 @@
 
 ## Active Plans
 
-> 작성 가이드: Status는 "In Progress / Blocked / Review / Done" 중 하나. Owner는 AGENTS.md의 에이전트 이름을 사용하세요.
+> 작성 가이드: Status는 "In Progress / Blocked / Review / Done" 중 하나. Owner는 AGENTS.md의 에이전트 이름을 사용하세요. Priority는 P0/P1/P2. Blocker는 Blocked 상태일 때만 기입.
+> Backlog 항목을 Active로 올리는 기준: 현재 스프린트에서 착수 가능한 상태(의존성 해소, 담당자 확정)일 때.
 
-| Plan | File | Status | Owner |
-|---|---|---|---|
-| (e.g., Auth setup) | [auth-setup.md](exec-plans/active/auth-setup.md) | In Progress | backend-agent |
+| Priority | Plan | File | Status | Owner | Blocker |
+|---|---|---|---|---|---|
+| (P0/P1/P2) | `<plan-name>` | [plan-name.md](exec-plans/active/plan-name.md) | In Progress | (agent) | |
 
 ---
 
 ## Backlog
 
-> 작성 가이드: P0=blocking, P1=중요하지만 비blocking, P2=nice-to-have
+> 작성 가이드: P0=blocking, P1=중요하지만 비blocking, P2=nice-to-have. Owner는 AGENTS.md의 에이전트 이름 (미정이면 TBD).
 
-| Priority | Task | Notes |
-|---|---|---|
-| P0 | `<your-task>` | |
-| P1 | `<your-task>` | |
-| P2 | `<your-task>` | |
+| Priority | Task | Owner | Notes |
+|---|---|---|---|
+| P0 | `<your-task>` | TBD | |
+| P1 | `<your-task>` | TBD | |
+| P2 | `<your-task>` | TBD | |
 
 ---
 
 ## Completed
 
-> 작성 가이드: Notes 칸에는 관련 PR 링크 또는 exec-plan 파일 경로를 기입하세요.
+> 작성 가이드: 플랜 완료 시 exec-plan 파일을 `docs/exec-plans/active/` → `docs/exec-plans/completed/`로 이동한 뒤 이 테이블에 행을 추가하세요. Notes 칸에는 관련 PR 링크 또는 exec-plan 파일 경로를 기입하세요.
 
 | Plan | Completed | Notes |
 |---|---|---|
-| (e.g., Project scaffold) | YYYY-MM-DD | |
+| `<plan-name>` | YYYY-MM-DD | |
 
 ---
 
