@@ -2,11 +2,13 @@
 
 ## Mission
 
-> **Fill in:** Why does this product exist? What problem does it solve?
+> **프로젝트 시작 시 채우세요.** Why does this product exist? What problem does it solve?
 
 ---
 
 ## Target Users
+
+> **프로젝트 시작 시 아래 테이블을 채우세요.**
 
 | Persona | Description | Primary Need |
 |---|---|---|
@@ -20,6 +22,7 @@
 
 > These are the non-negotiable product convictions that guide feature decisions.
 > See [design-docs/core-beliefs.md](design-docs/core-beliefs.md) for the full rationale.
+> **프로젝트 시작 시 아래 항목을 채우세요.**
 
 1. (e.g., Speed is a feature — every interaction should feel instant)
 2. (e.g., Default to showing less, not more)
@@ -58,6 +61,8 @@ When a product decision is unclear, ask in this order:
 ---
 
 ## Success Metrics
+
+> **프로젝트 시작 시 아래 테이블을 채우세요.**
 
 | Metric | Definition | Target |
 |---|---|---|
