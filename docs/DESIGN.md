@@ -8,6 +8,8 @@
 
 ## Design System
 
+> **프로젝트 시작 시 아래 테이블을 채우세요.**
+
 | Element | Specification | Notes |
 |---|---|---|
 | Component library | (e.g., shadcn/ui, Radix, MUI) | |
@@ -22,6 +24,8 @@ See [design-system-reference-llms.txt](references/design-system-reference-llms.t
 
 ## Color Palette
 
+> **프로젝트 시작 시 아래 테이블을 채우세요.**
+
 | Token | Value | Usage |
 |---|---|---|
 | `--color-primary` | (fill in) | Primary actions, links |
@@ -33,6 +37,8 @@ See [design-system-reference-llms.txt](references/design-system-reference-llms.t
 ---
 
 ## Typography Scale
+
+> **Tailwind CSS 기본값 기준입니다. 다른 프레임워크 사용 시 프로젝트에 맞게 조정하세요.**
 
 | Token | Size | Usage |
 |---|---|---|
