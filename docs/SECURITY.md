@@ -11,6 +11,8 @@
 
 ## Authentication & Authorization
 
+> **프로젝트 시작 시 아래 테이블을 채우세요.** 확정 전까지 플레이스홀더로 유지합니다.
+
 | Concern | Approach | Notes |
 |---|---|---|
 | Auth provider | (e.g., Clerk, Auth.js) | |
@@ -39,7 +41,7 @@
 ## Secrets Management
 
 - No secrets in source code — ever
-- Use environment variables; pull via `vercel env pull` or equivalent
+- Use environment variables; pull via platform CLI (e.g., `vercel env pull`, `doppler run`, `.env` file)
 - Rotate secrets on: personnel offboarding, suspected exposure
 - Secrets follow naming convention: `<SERVICE>_<TYPE>` (e.g., `STRIPE_SECRET_KEY`)
 - Audit secret access quarterly
