@@ -8,6 +8,12 @@
 |---|---|---|---|---|---|
 | — | — | No items yet | — | — | — |
 
+## Closed Items
+
+| ID | Domain | Description | Resolved | Notes |
+|---|---|---|---|---|
+| — | — | No items yet | — | — |
+
 ## Severity Levels
 - **P1** — Blocking or data-loss risk; fix before next release
 - **P2** — Significant friction; fix within current sprint
