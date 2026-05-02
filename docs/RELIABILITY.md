@@ -2,6 +2,8 @@
 
 ## Service Level Objectives (SLOs)
 
+> **아래 수치는 기본값입니다. 프로젝트 요구사항에 맞게 조정하세요.**
+
 | Service | Availability Target | Latency (p99) | Error Rate |
 |---|---|---|---|
 | API (read) | 99.9% | < 500ms | < 0.1% |
@@ -25,12 +27,14 @@
 
 ## Observability
 
+> **프로젝트 시작 시 아래 테이블의 Tool 칸을 채우세요.**
+
 | Signal | Tool | What to monitor |
 |---|---|---|
-| Logs | (e.g., Vercel Logs, Datadog) | Errors, warnings, slow queries |
-| Metrics | (e.g., Vercel Analytics) | Request rate, error rate, latency |
-| Traces | (fill in) | Slow transactions, DB queries |
-| Alerts | (fill in) | SLO breaches, error spikes |
+| Logs | (e.g., Datadog, Axiom, Vercel Logs) | Errors, warnings, slow queries |
+| Metrics | (e.g., Datadog, Grafana, Vercel Analytics) | Request rate, error rate, latency |
+| Traces | (e.g., Datadog, Jaeger, Honeycomb) | Slow transactions, DB queries |
+| Alerts | (e.g., PagerDuty, Opsgenie) | SLO breaches, error spikes |
 
 ---
 
